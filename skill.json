@@ -1,0 +1,37 @@
+{
+  "developer": "Marvin Galdamez",
+  "current_role": "Lead Developer (Integrations)",
+  "learning_style": "Self-taught & Open Source advocate",
+  "currently_learning": [
+    "DevOps",
+    "Kubernetes (K8s)"
+  ],
+  "technical_stack": {
+    "languages": [
+      "Java", 
+      "Python",
+      "PHP", 
+      "TypeScript"
+    ],
+    "frameworks_and_libraries": [
+      "Spring Boot", 
+      "Django", 
+      "FastAPI",
+      "NestJS"
+    ],
+    "cloud_and_infrastructure": {
+      "platforms": ["AWS", "Azure", "Linux (Fedora)"],
+      "containerization": ["Docker", "Kubernetes"],
+      "version_control_and_cicd": ["Git", "GitLab CI", "GitHub Actions"]
+    },
+    "databases": {
+      "relational": ["Oracle", "MS SQL", "PostgreSQL", "MySQL"],
+      "nosql": ["MongoDB", "DynamoDB"]
+    }
+  },
+  "contact": {
+    "email": "marvin.galdamezm@gmail.com",
+    "portfolio_or_linkedin": "[https://www.linkedin.com/in/mgaldamezm/](https://www.linkedin.com/in/mgaldamezm/)"
+  },
+  "status": "200 OK"
+}

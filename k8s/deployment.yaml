@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-skills
+  labels:
+    app: api-skills
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-skills
+  template:
+    metadata:
+      labels:
+        app: api-skills
+    spec:
+      containers:
+      - name: api-skills
+        image: ghcr.io/mgaldamez/api-skills:latest
+        ports:
+        - containerPort: 8000
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 15
+          periodSeconds: 20
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+          requests:
+            cpu: "100m"
+            memory: "128Mi"

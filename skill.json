@@ -31,7 +31,8 @@
   },
   "contact": {
     "email": "marvin.galdamezm@gmail.com",
-    "portfolio_or_linkedin": "https://www.linkedin.com/in/mgaldamezm/"
+    "linkedin": "https://www.linkedin.com/in/mgaldamezm/",
+    "github": "https://github.com/mgaldamezm"
   },
   "status": "200 OK"
 }
